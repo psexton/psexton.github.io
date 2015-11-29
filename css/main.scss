@@ -1,0 +1,110 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+$grey-color: #444;
+$grey-color-light: #777;
+
+$spacing-unit:     30px;
+
+$text-color:       #444;
+$background-color: #fff;
+$brand-color:      #444;
+
+// import normalize stylesheet
+@import "base";
+
+// import mixins stylesheet
+@import "mixins";
+
+// base styles
+html {
+  color: $brand-color;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+.wrapper {
+  padding-top: 2.441em;
+  max-width: 990px;
+  margin: 0 auto;
+}
+
+// typography
+
+p {
+  font-size: 1.25em;
+  line-height: 1.4;
+  color: $brand-color;
+  margin-top: 2.441rem;
+}
+
+.article-listing {
+margin-top: 2em;
+font-family: "jaf-bernina-sans",sans-serif;
+font-style: normal;
+font-weight: 400;
+color: #666;
+}
+
+.article-title {
+text-align: center;
+margin: .5rem 0;
+padding-top: .5rem;
+font-family: "jaf-bernina-sans",sans-serif;
+font-style: normal;
+font-weight: 300;
+color: #444;
+}
+
+.nav {
+  margin-top: 2em;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline;
+}
+
+.nav {
+  letter-spacing: 1px;
+}
+
+.nav a, .nav a:visited, .nav a:active {
+  margin-bottom: 0;
+  text-decoration: none;
+  color: $brand-color;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  color: #405862;
+}
+
+.logomark {
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo h1 {
+  letter-spacing: 2px;
+    margin-top: .25em;
+}
+
+.intro {
+  margin-top: .5em;
+  text-align: center;
+  font-weight: 100;
+}
