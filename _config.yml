@@ -1,9 +1,10 @@
 # Site settings
-title: Tiny Kite
-email: dsexton@dakotasexton.com
-description: Tiny Kite is a design studio run by Dakota Sexton. 
+title: Paul Sexton
+email: paul@psexton.net
+description: Paul Sexton is a software developer in Chicago.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://tinyite.com" # the base hostname & protocol for your site
+url: "psexton.net" # the base hostname & protocol for your site
 
 # Build settings
-markdown: kramdown
+markdown: rdiscount
+permalink: /notebook/:title

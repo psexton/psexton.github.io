@@ -1,0 +1,20 @@
+---
+layout: default
+link-state: notebook
+---
+<div id="content">
+
+<section class="d-all notebook-latest"> 
+ 
+          {% for post in site.posts %}
+          <article class="postindex">  
+     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <h3 class="date">{{ post.date | date: "%B %-d, %Y"  }}</h3>
+        <p>{{ post.description }}</p>
+           <h3><a href="{{ post.url}}">Read More</a></h3>
+   </article>
+      {% endfor %}
+</div>
+
+</section>
+
