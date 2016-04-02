@@ -3,13 +3,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <title>{{ site.title }} | {{ page.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
    <link rel="stylesheet" href="{{ "/css/normalize.min.css" | prepend: site.baseurl }}">
         <link rel="stylesheet" href="{{ "/css/maincss.css" | prepend: site.baseurl }} ">
-  <link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}">
-<link rel="stylesheet" href="{{ "/css/ss-social.css" | prepend: site.baseurl }}">
+
+<link href="{{ "/css/ss-social-regular.css" | prepend: site.baseurl }}" rel="stylesheet" />
 	<link href="https://get.gridsetapp.com/9419/" rel="stylesheet" />
 <link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/default.min.css">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
@@ -17,6 +17,9 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-  <script src="{{ "/js/vendor/modernizr-2.8.3.min.js" | prepend: site.baseurl }}"></script>
+    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
+
+          <script src="https://use.typekit.net/vfo8rjh.js"></script>
+<script>try{Typekit.load({ async: false });}catch(e){}</script>
 </head>
 
