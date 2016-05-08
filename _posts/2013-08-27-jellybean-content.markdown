@@ -2,6 +2,7 @@
 layout: post
 title:  "Jellybean Content"
 date:   2013-8-27
+link-state: notebook
 description: In which I coin a phrase for flavorful but unremarkable web content.
 ---
 

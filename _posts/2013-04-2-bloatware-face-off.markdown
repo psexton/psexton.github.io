@@ -2,6 +2,7 @@
 layout: post
 title:  "Bloatware Face-Off"
 date:   2013-4-2
+link-state: notebook
 description: Comparing the sources of unnecessary Android system applications.
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title:  "Xbox 360 Catchup (Part 1)"
 date:   2015-10-19
+link-state: notebook
 description: I play XBox 360 games well after they were released.
 ---
 Here's a short summary so far:
