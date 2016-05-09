@@ -3,60 +3,80 @@
 ---
 @charset "utf-8";
 
-// import normalize stylesheet
+// Import normalize stylesheet
 @import "base";
 
-// import layout stylesheet
+// Import layout stylesheet
 @import "base";
 
-/**
- * Links
- */
+// Variables
 
-a { color: #ee4938; text-decoration:none; }
-a:visited { color: #ee4938; }
-a:hover { color: #9c9999; }
-a:focus { outline: thin dotted; }
+$text-color: #46433A;
+$link-color: #727272; 
+$hover-color: #cccccc; 
+$nav-color: #b9bbbb;
+$light-gray: #9c9999;
 
-.intro {color: #636d76;}
+// Header styles
+.logo {
+  margin-top: 1em;
+  font-size: 22px;
+  text-align: center;
+  a, a:visited {
+      color:$link-color; 
+      text-decoration:none; 
+    }  
+  a:hover {
+        color: $hover-color; 
+    }
+  a:focus {
+        outline: thin dotted; 
+    }
+}
 
-nav ul li a, nav ul li a:visited {
-color: #9c9999; text-decoration: none;}
-nav ul li a:hover, nav ul li a.active{text-decoration: none;
-color: #ee4938;}
-
+nav {
+  margin: .5em 0 0 0;
+  padding: 0;
+  color: $nav-color;
+  font-size: 1.17em;
+  ul li a, ul li a:visited {
+      color: $light-gray; text-decoration: none;
+  }
+  ul li a:hover, ul li a.active {
+      text-decoration: none;
+      color: #ee4938;
+  }
+}
 
 body#about a#aboutnav,
 body#notebook a#notebooknav,
 body#projects a#projectsnav,
 body#reading a#readingnav {
-	color: #ee4938;
+  color: #ee4938;
 }
 
-nav {margin: .5em 0 0 0;
-padding: 0;
-color: #b9bbbb;
-font-size: 1.17em;
-}
+// Body typography
 
-.logo {
-margin-top: 1em;
-font-size: 22px;
-text-align: center;}
+a, a:visited {
+    color: #ee4938; text-decoration:none; 
+  }
 
-.logo a { color:#727272; text-decoration:none; }
-.logo a:visited { color: #727272; }
-.logo a:hover { color: #cccccc; }
-.logo a:focus { outline: thin dotted; }
+a:hover { color: $light-gray; }
 
-h1 a { color: #46433a; text-decoration:none; }
-h1 a:visited { color: #46433a; }
-h1 a:hover { color: #9c9999; }
-h1 a:focus { outline: thin dotted; }
+a:focus, a:active { outline: thin dotted; }
+
+h1 a, h1 a:visited { 
+    color: $link-color; text-decoration:none;
+   }
+h1 a:hover {
+    color: $light-gray; }
+
+h1 a:focus {
+    outline: thin dotted; }
 
 p a { color: #ee4938; text-decoration:none; }
 p a:visited { color: #ee4938; }
-p a:hover { color: #9c9999; }
+p a:hover { color: $light-gray; }
 p a:focus { outline: thin dotted; }
 
 .wrapper {
@@ -67,7 +87,7 @@ max-width: 563px;
 .wrapper img {width: 100%;}
 
 .date {
-color: #9c9999;
+color: $light-gray;
 margin-top: -1.5em;
 font-style: italic;
 }
@@ -77,7 +97,7 @@ padding-top:5px;
 margin: 0 auto;
 margin-top:1em;
 text-align: center;
-color: #9c9999;
+color: $light-gray;
 }
 
 .elsewhere ul, .elsewhere li {
@@ -87,58 +107,48 @@ color: #9c9999;
 .post {
 border-bottom: 1px double #ccc;
 padding-bottom: 1.5em;
+  h2 {
+      color: #02344d;
+  }
+  ol {
+      list-style:decimal outside;
+      font-size: 1.17em;
+  }
+  ul {
+      list-style: disc outside;
+      font-size:1.17em;
+  }
+  li { 
+      margin-bottom: 0px;
+  }
+  ol ol, li li {
+      margin: 0 0 0 60px;
+  }
+  ul ul, li li {
+      margin: 0 0 0 60px;
+  }
 }
-
-.post h2 {
-color: #02344d;
-}
-
-.post ol {list-style:decimal outside;
-font-size: 1.17em;
-}
-
-.post ul {
-  list-style: disc outside;
-font-size:1.17em;
-}
-
-.post li { margin-bottom: 0px;}
-
-.post ol ol, .post li li {
-  margin: 0 0 0 60px;
-}
-
-.post ul ul, .post li li {
- margin: 0 0 0 60px;
-}
-
 
 .postindex {
 border-bottom: 1px double #ccc;
 padding-bottom: 1.5em;
-}
-
-.postindex h2 {
-color: #02344d;
-}
-
-.postindex ol {list-style:decimal outside;
+  h2 {
+    color: #02344d;
+  }
+  ol {list-style:decimal outside;
 font-size:1.17em;
 }
-
-.postindex ul {
+ul {
   list-style: disc outside;
 font-size:1.17em;
 }
-
-.postindex li { margin-bottom: 0px;}
-
-.postindex ol ol, li li {
+li { margin-bottom: 0px;}
+ol ol, li li {
   margin: 0 0 0 60px;
 }
-
-.postindex ul ul, li li {
+ul ul, li li {
  margin: 0 0 0 60px;
+}
 }
 
 
