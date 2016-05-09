@@ -1,0 +1,248 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// import normalize stylesheet
+@import "base";
+
+// import layout stylesheet
+@import "base";
+
+/**
+ * Links
+ */
+
+a { color: #ee4938; text-decoration:none; }
+a:visited { color: #ee4938; }
+a:hover { color: #9c9999; }
+a:focus { outline: thin dotted; }
+
+.intro {color: #636d76;}
+
+nav ul li a, nav ul li a:visited {
+color: #9c9999; text-decoration: none;}
+nav ul li a:hover, nav ul li a.active{text-decoration: none;
+color: #ee4938;}
+
+
+body#about a#aboutnav,
+body#notebook a#notebooknav,
+body#projects a#projectsnav,
+body#reading a#readingnav {
+	color: #ee4938;
+}
+
+nav {margin: .5em 0 0 0;
+padding: 0;
+color: #b9bbbb;
+font-size: 1.17em;
+}
+
+.logo {
+margin-top: 1em;
+font-size: 22px;
+text-align: center;}
+
+.logo a { color:#727272; text-decoration:none; }
+.logo a:visited { color: #727272; }
+.logo a:hover { color: #cccccc; }
+.logo a:focus { outline: thin dotted; }
+
+h1 a { color: #46433a; text-decoration:none; }
+h1 a:visited { color: #46433a; }
+h1 a:hover { color: #9c9999; }
+h1 a:focus { outline: thin dotted; }
+
+p a { color: #ee4938; text-decoration:none; }
+p a:visited { color: #ee4938; }
+p a:hover { color: #9c9999; }
+p a:focus { outline: thin dotted; }
+
+.wrapper {
+margin: 0 auto;
+max-width: 563px;
+}
+
+.wrapper img {width: 100%;}
+
+.date {
+color: #9c9999;
+margin-top: -1.5em;
+font-style: italic;
+}
+
+footer{
+padding-top:5px;
+margin: 0 auto;
+margin-top:1em;
+text-align: center;
+color: #9c9999;
+}
+
+.elsewhere ul, .elsewhere li {
+		list-style: none;
+		}
+
+.post {
+border-bottom: 1px double #ccc;
+padding-bottom: 1.5em;
+}
+
+.post h2 {
+color: #02344d;
+}
+
+.post ol {list-style:decimal outside;
+font-size: 1.17em;
+}
+
+.post ul {
+  list-style: disc outside;
+font-size:1.17em;
+}
+
+.post li { margin-bottom: 0px;}
+
+.post ol ol, .post li li {
+  margin: 0 0 0 60px;
+}
+
+.post ul ul, .post li li {
+ margin: 0 0 0 60px;
+}
+
+
+.postindex {
+border-bottom: 1px double #ccc;
+padding-bottom: 1.5em;
+}
+
+.postindex h2 {
+color: #02344d;
+}
+
+.postindex ol {list-style:decimal outside;
+font-size:1.17em;
+}
+
+.postindex ul {
+  list-style: disc outside;
+font-size:1.17em;
+}
+
+.postindex li { margin-bottom: 0px;}
+
+.postindex ol ol, li li {
+  margin: 0 0 0 60px;
+}
+
+.postindex ul ul, li li {
+ margin: 0 0 0 60px;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+ @media screen and (max-width: 768px) {
+  .wrapper {
+padding-left: 2.063em;
+padding-right: 2.063em;
+} 
+
+.postindex ol, ul, li {font-size: 1em;}
+p {font-size: 1em;}
+h1 {font-size: 1.5em;}
+h2 {font-size: 1.375em;}
+h3 {font-size: 1em;} 
+
+.date {font-size: 1em; margin-top: -1em;}
+
+nav{
+font-size: 1em;
+padding: 0;
+margin-top: .5em;
+margin-bottom:.5em;
+}
+
+nav ul,nav ol{list-style:none;list-style-image:none; margin:0; width: 100%; text-align: center; padding:0;}
+nav li {display: inline; padding-left: .5em; padding-right: .5em; margin: 0;}
+}
+
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+
+
