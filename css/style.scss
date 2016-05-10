@@ -7,44 +7,50 @@
 @import "base";
 
 // Import layout stylesheet
-@import "base";
+@import "layout";
 
 // Variables
-
 $text-color: #46433A;
 $link-color: #727272; 
 $hover-color: #cccccc; 
-$nav-color: #b9bbbb;
 $light-gray: #9c9999;
+$secondary-color: #ee4938;
 
 // Header styles
 .logo {
   margin-top: 1em;
   font-size: 22px;
   text-align: center;
-  a, a:visited {
-      color:$link-color; 
-      text-decoration:none; 
-    }  
-  a:hover {
-        color: $hover-color; 
-    }
-  a:focus {
-        outline: thin dotted; 
+    a {
+        color: $link-color;
+      &:visited {
+        color: $link-color;
+      }
+      &:hover {
+        color: $hover-color;
+      }
+      &:active {
+        color: $hover-color;
+      }
     }
 }
 
 nav {
   margin: .5em 0 0 0;
   padding: 0;
-  color: $nav-color;
   font-size: 1.17em;
-  ul li a, ul li a:visited {
-      color: $light-gray; text-decoration: none;
-  }
-  ul li a:hover, ul li a.active {
-      text-decoration: none;
-      color: #ee4938;
+  ul li a {
+    color: $light-gray;
+    text-decoration: none;
+      &:visited {
+        color: $light-gray;
+      }
+      &:hover {
+        color: #ee4938;
+      }
+      &:active {
+        color: #ee4938;
+      }
   }
 }
 
@@ -57,34 +63,41 @@ body#reading a#readingnav {
 
 // Body typography
 
-a, a:visited {
-    color: #ee4938; text-decoration:none; 
-  }
+a {
+    color: #ee4938;
+    text-decoration: none;
+      &:visited {
+        color: #ee4938;
+      }
+      &:hover {
+        color: $light-gray; 
+      }
+      &:active {
+        color: $light-gray; 
+      }
+    }
 
-a:hover { color: $light-gray; }
-
-a:focus, a:active { outline: thin dotted; }
-
-h1 a, h1 a:visited { 
-    color: $link-color; text-decoration:none;
-   }
-h1 a:hover {
-    color: $light-gray; }
-
-h1 a:focus {
-    outline: thin dotted; }
-
-p a { color: #ee4938; text-decoration:none; }
-p a:visited { color: #ee4938; }
-p a:hover { color: $light-gray; }
-p a:focus { outline: thin dotted; }
+h1 a {
+  color: $link-color; 
+  text-decoration: none;
+    &:visited {
+      color: $link-color;
+    }
+    &:hover {
+      color: $light-gray; 
+    }
+    &:active {
+      color: $light-gray; 
+    }
+}
 
 .wrapper {
 margin: 0 auto;
 max-width: 563px;
+  img {
+    width: 100%;
+  }
 }
-
-.wrapper img {width: 100%;}
 
 .date {
 color: $light-gray;
@@ -101,12 +114,15 @@ color: $light-gray;
 }
 
 .elsewhere ul, .elsewhere li {
-		list-style: none;
-		}
+    list-style: none;
+    }
+
+.post, .postindex {
+border-bottom: 1px solid #ccc;
+padding-bottom: 1.5em;
+}
 
 .post {
-border-bottom: 1px double #ccc;
-padding-bottom: 1.5em;
   h2 {
       color: #02344d;
   }
@@ -121,17 +137,9 @@ padding-bottom: 1.5em;
   li { 
       margin-bottom: 0px;
   }
-  ol ol, li li {
-      margin: 0 0 0 60px;
-  }
-  ul ul, li li {
-      margin: 0 0 0 60px;
-  }
 }
 
 .postindex {
-border-bottom: 1px double #ccc;
-padding-bottom: 1.5em;
   h2 {
     color: #02344d;
   }
@@ -150,7 +158,6 @@ ul ul, li li {
  margin: 0 0 0 60px;
 }
 }
-
 
 /* ==========================================================================
    Media Queries
@@ -175,84 +182,14 @@ font-size: 1em;
 padding: 0;
 margin-top: .5em;
 margin-bottom:.5em;
+  ul, ol {list-style:none;list-style-image:none; margin:0; width: 100%; text-align: center; padding:0;}
+  li {display: inline; padding-left: .5em; padding-right: .5em; margin: 0;}
+}
 }
 
-nav ul,nav ol{list-style:none;list-style-image:none; margin:0; width: 100%; text-align: center; padding:0;}
-nav li {display: inline; padding-left: .5em; padding-right: .5em; margin: 0;}
-}
 
 
 
-/* ==========================================================================
-   Print styles
-   ========================================================================== */
-
-@media print {
-    * {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
-
-    /*
-     * Don't show links for images, or javascript/internal links
-     */
-
-    .ir a:after,
-    a[href^="javascript:"]:after,
-    a[href^="#"]:after {
-        content: "";
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group; /* h5bp.com/t */
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    img {
-        max-width: 100% !important;
-    }
-
-    @page {
-        margin: 0.5cm;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
 
 
 
