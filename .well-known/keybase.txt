@@ -1,0 +1,74 @@
+==================================================================
+https://keybase.io/psexton
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://psexton.net
+  * I am psexton (https://keybase.io/psexton) on keybase.
+  * I have a public key with fingerprint 5A77 F8F6 83C1 2DCF AF4A  1465 F6AA 378A F76E DFE7
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c1d8944fec696d621eb07a539af7722dc588843fb3509efb783d15d026084ce60a",
+            "fingerprint": "5a77f8f683c12dcfaf4a1465f6aa378af76edfe7",
+            "host": "keybase.io",
+            "key_id": "f6aa378af76edfe7",
+            "kid": "0101c1d8944fec696d621eb07a539af7722dc588843fb3509efb783d15d026084ce60a",
+            "uid": "5cc1bde0f08246429bdaefe3f1512800",
+            "username": "psexton"
+        },
+        "revoke": {
+            "sig_ids": [
+                "107518cd73c86deb1216a0fe59de5bfa97e1c9f90d670d1aa995b294d66eebad0f"
+            ]
+        },
+        "service": {
+            "hostname": "psexton.net",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469042666,
+    "expire_in": 157680000,
+    "prev": "24d305529c2ca54aa0e859c294dcb7c72faf28f0cf6d241bbda2577463c27578",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMJpAnicrZJvaFdVGMd/y9L64ewfWEQjODQymnbOuff8uTddzcLIWvhCitD8ce45
+z9nuZvf+ur+7336mw3SjLMEKBK31Ygq+sFpoUo2gP0uRoI0QW4ojCRSJ+cJBRVKZ
+nTvqRdDLXh2ec77P5/k+z3OONc8rlZt6Fv5+dsfsBG/6eny2r/T0a9/MbEZRajah
+cDPqhbkDNhqo5ZXe2KAQYYKJJkYGvm9B84AbTglEWCjmBcoKQanRTErpezbyGA7A
+RkJ6hjCDKcfS18CxQm3IxkkXZNUsTnKHZUoIKy2XniYOYJX1FfE5s1wpT0gH5mAs
+CJfYndaKDGcuUjVYFqfuzgWVOXv/of+ffffN4ZjWJDKALZbU5z4NIqPAgmcJI1Ri
+XAhrkCXqOXDqag0aeZqggTaUQT3thWKstbjLea6hcB0iWDAitRGeltxARCjhCltg
+gQEWWRUIIDqwATZcYEOUCgIW0cA3nANEymCLnnVsV7Ae6zl4MaR/F1+WQO5cVbM0
+T3W60T1053k1LDzlm6qFsB+iyt+IShQnxi3IJdQhq8XOe0icUudxwXSbCbBPOedt
+CBrVOINKXCiY4K53jIsyUHdI6hsPM0YDTbVivlIYJHOBs64joQV1i6bSYm25oT6J
+3BQpE8LnnqaCCYmKpp5PUhQGzqbqckg3tkTlfRmggS+/WH9tqalcmn/dNcXHLZVv
+uOmf71x/a8GfK9au3BE2Vr8w1P7Tie/v/rHt/u12RePFrVOXL33WPr950cPbph45
+Vf/gSFhfPvbt26rn9qHWKTvYeuvwlc7OdSpfsvuxA017v3ozx890JK8+cOTnSx9N
+tJiH3j1N/jhqVi34oROP3vzh9Vun+ciWcPzyrzvPHDpeXb9h7b23vd5Cj770+fGO
+vY92P36SdW+ZnNeIvnvvxunyg2NXuWg/tCj+tOPw7pF7Ji+eHVwzc/WJXdN3vLJf
+3qdPXzx3cGhJLJ9cuGrkFnH+/W1Lf+sfnkF35VfCN95p2bB4dXlN/53Hdp4a23Nw
+ZTNpnSoNv7xncjl0Tnzc85QYv7Drl30XRrMBPrr0ABmcPby975O/ABbGXik=
+=mfcS
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/psexton
+
+==================================================================
