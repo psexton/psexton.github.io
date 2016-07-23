@@ -10,11 +10,11 @@
 @import "layout";
 
 // Variables
-$text-color: #46433A;
-$link-color: #727272; 
-$hover-color: #cccccc; 
-$light-gray: #9c9999;
-$secondary-color: #ee4938;
+$logo-color: #727272; 
+$logo-hover-color: #ccc; 
+$link-color: #C73E1D;
+$secondary-color: #9c9999;
+
 
 // Header styles
 .logo {
@@ -22,15 +22,15 @@ $secondary-color: #ee4938;
   font-size: 22px;
   text-align: center;
     a {
-        color: $link-color;
+        color: $logo-color;
       &:visited {
-        color: $link-color;
+        color: $logo-color;
       }
       &:hover {
-        color: $hover-color;
+        color: $logo-hover-color;
       }
       &:active {
-        color: $hover-color;
+        color: $logo-hover-color;
       }
     }
 }
@@ -40,16 +40,16 @@ nav {
   padding: 0;
   font-size: 1.17em;
   ul li a {
-    color: $light-gray;
+    color: $secondary-color;
     text-decoration: none;
       &:visited {
-        color: $light-gray;
+        color: $secondary-color;
       }
       &:hover {
-        color: #ee4938;
+        color: $link-color;
       }
       &:active {
-        color: #ee4938;
+        color: $link-color;
       }
   }
 }
@@ -58,36 +58,36 @@ body#about a#aboutnav,
 body#notebook a#notebooknav,
 body#projects a#projectsnav,
 body#reading a#readingnav {
-  color: #ee4938;
+  color: $link-color;
 }
 
 // Body typography
 
 a {
-    color: #ee4938;
+    color: $link-color;
     text-decoration: none;
       &:visited {
-        color: #ee4938;
+        color: $link-color;
       }
       &:hover {
-        color: $light-gray; 
+        color: $secondary-color; 
       }
       &:active {
-        color: $light-gray; 
+        color: $secondary-color; 
       }
     }
 
 h1 a {
-  color: $link-color; 
+  color: $logo-color; 
   text-decoration: none;
     &:visited {
-      color: $link-color;
+      color: $logo-color;
     }
     &:hover {
-      color: $light-gray; 
+      color: $secondary-color; 
     }
     &:active {
-      color: $light-gray; 
+      color: $secondary-color; 
     }
 }
 
@@ -100,7 +100,7 @@ max-width: 563px;
 }
 
 .date {
-color: $light-gray;
+color: $secondary-color;
 margin-top: -1.5em;
 font-style: italic;
 }
@@ -110,21 +110,36 @@ padding-top:5px;
 margin: 0 auto;
 margin-top:1em;
 text-align: center;
-color: $light-gray;
+color: $secondary-color;
+}
+
+.intro {
+  margin: 1.5rem 0 .75rem 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.intro-caption {
+  font-style: italic;
+  text-align: center;
+}
+
+.elsewhere {
+ margin-top: 1em;
 }
 
 .elsewhere ul, .elsewhere li {
     list-style: none;
     }
 
-.post, .postindex {
+.post {
 border-bottom: 1px solid #ccc;
 padding-bottom: 1.5em;
 }
 
-.post {
+.post, .post-index {
   h2 {
-      color: #02344d;
+      color: #527B8E;
   }
   ol {
       list-style:decimal outside;
@@ -139,25 +154,23 @@ padding-bottom: 1.5em;
   }
 }
 
-.postindex {
-  h2 {
-    color: #02344d;
-  }
-  ol {list-style:decimal outside;
-font-size:1.17em;
+// Animation-specific styles
+
+.chicagoSkyline {
+margin-top: 1.75em;
 }
-ul {
-  list-style: disc outside;
-font-size:1.17em;
+
+.sqWindowGroup1, .sqWindowGroup2, .roundWindowGroup1 {
+  visibility: hidden;
 }
-li { margin-bottom: 0px;}
-ol ol, li li {
-  margin: 0 0 0 60px;
+
+svg {
+  visibility: hidden;
+  max-width: 90%;
+  display:block;
+  margin: 0 auto;
 }
-ul ul, li li {
- margin: 0 0 0 60px;
-}
-}
+
 
 /* ==========================================================================
    Media Queries
