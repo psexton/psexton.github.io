@@ -1,0 +1,208 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import normalize stylesheet
+@import "base";
+
+// Import layout stylesheet
+@import "layout";
+
+// Variables
+$logo-color: #727272; 
+$logo-hover-color: #ccc; 
+$link-color: #C73E1D;
+$secondary-color: #9c9999;
+
+
+// Header styles
+.logo {
+  margin-top: 1em;
+  font-size: 22px;
+  text-align: center;
+    a {
+        color: $logo-color;
+      &:visited {
+        color: $logo-color;
+      }
+      &:hover {
+        color: $logo-hover-color;
+      }
+      &:active {
+        color: $logo-hover-color;
+      }
+    }
+}
+
+nav {
+  margin: .5em 0 0 0;
+  padding: 0;
+  font-size: 1.17em;
+  ul li a {
+    color: $secondary-color;
+    text-decoration: none;
+      &:visited {
+        color: $secondary-color;
+      }
+      &:hover {
+        color: $link-color;
+      }
+      &:active {
+        color: $link-color;
+      }
+  }
+}
+
+body#about a#aboutnav,
+body#notebook a#notebooknav,
+body#projects a#projectsnav,
+body#reading a#readingnav {
+  color: $link-color;
+}
+
+// Body typography
+
+a {
+    color: $link-color;
+    text-decoration: none;
+      &:visited {
+        color: $link-color;
+      }
+      &:hover {
+        color: $secondary-color; 
+      }
+      &:active {
+        color: $secondary-color; 
+      }
+    }
+
+h1 a {
+  color: $logo-color; 
+  text-decoration: none;
+    &:visited {
+      color: $logo-color;
+    }
+    &:hover {
+      color: $secondary-color; 
+    }
+    &:active {
+      color: $secondary-color; 
+    }
+}
+
+.wrapper {
+margin: 0 auto;
+max-width: 563px;
+  img {
+    width: 100%;
+  }
+}
+
+.date {
+color: $secondary-color;
+margin-top: -1.5em;
+font-style: italic;
+}
+
+footer{
+padding-top:5px;
+margin: 0 auto;
+margin-top:1em;
+text-align: center;
+color: $secondary-color;
+}
+
+.intro {
+  margin: 1.5rem 0 .75rem 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.intro-caption {
+  font-style: italic;
+  text-align: center;
+}
+
+.elsewhere {
+ margin-top: 1em;
+}
+
+.elsewhere ul, .elsewhere li {
+    list-style: none;
+    }
+
+.post {
+border-bottom: 1px solid #ccc;
+padding-bottom: 1.5em;
+}
+
+.post, .post-index {
+  h2 {
+      color: #527B8E;
+  }
+  ol {
+      list-style:decimal outside;
+      font-size: 1.17em;
+  }
+  ul {
+      list-style: disc outside;
+      font-size:1.17em;
+  }
+  li { 
+      margin-bottom: 0px;
+  }
+}
+
+// Animation-specific styles
+
+.chicagoSkyline {
+margin-top: 1.75em;
+}
+
+.sqWindowGroup1, .sqWindowGroup2, .roundWindowGroup1 {
+  visibility: hidden;
+}
+
+svg {
+  visibility: hidden;
+  max-width: 90%;
+  display:block;
+  margin: 0 auto;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+ @media screen and (max-width: 768px) {
+  .wrapper {
+padding-left: 2.063em;
+padding-right: 2.063em;
+} 
+
+.postindex ol, ul, li {font-size: 1em;}
+p {font-size: 1em;}
+h1 {font-size: 1.5em;}
+h2 {font-size: 1.375em;}
+h3 {font-size: 1em;} 
+
+.date {font-size: 1em; margin-top: -1em;}
+
+nav{
+font-size: 1em;
+padding: 0;
+margin-top: .5em;
+margin-bottom:.5em;
+  ul, ol {list-style:none;list-style-image:none; margin:0; width: 100%; text-align: center; padding:0;}
+  li {display: inline; padding-left: .5em; padding-right: .5em; margin: 0;}
+}
+}
+
+
+
+
+
+
+

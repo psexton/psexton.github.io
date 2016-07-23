@@ -2,6 +2,7 @@
 layout: post
 title:  "It's The Integrity, Stupid"
 date:   2013-1-28
+link-state: notebook
 description: I realize that I can no longer trust CNet for reviews, and that this might be the beginning of the end for them.
 ---
 

@@ -6,8 +6,7 @@
   <title>{{ site.title }} | {{ page.title }}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-   <link rel="stylesheet" href="{{ "/css/normalize.min.css" | prepend: site.baseurl }}">
-        <link rel="stylesheet" href="{{ "/css/maincss.css" | prepend: site.baseurl }} ">
+        <link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }} ">
 
 <link href="{{ "/css/ss-social-regular.css" | prepend: site.baseurl }}" rel="stylesheet" />
 	<link href="https://get.gridsetapp.com/9419/" rel="stylesheet" />
@@ -17,9 +16,9 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <script src="/js/vendor/modernizr-2.8.3.min.js"></script>
-
           <script src="https://use.typekit.net/vfo8rjh.js"></script>
 <script>try{Typekit.load({ async: false });}catch(e){}</script>
+
+<script src="https://get.gridsetapp.com/9419/overlay/"></script>
 </head>
 

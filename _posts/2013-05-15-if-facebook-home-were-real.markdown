@@ -2,6 +2,7 @@
 layout: post
 title:  "If Facebook Home Were Real"
 date:   2013-5-15
+link-state: notebook
 description: A more accurate script for the recent Facebook Home ad.
 ---
 
