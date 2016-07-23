@@ -4,6 +4,8 @@ title: Reading
 link-state: reading
 ---
 
+## What I'm Reading Lately
+
 The books I read recreationally are listed over on my [Goodreads](https://www.goodreads.com/psexton) account. These are the blog entries and articles that I've sent to people enough times that it seems handy to keep them here in one place.
 
 ## Feasibility Terms
