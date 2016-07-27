@@ -6,7 +6,7 @@ link-state: notebook
 description: A more accurate script for the recent Facebook Home ad.
 ---
 
-You've probably seen this ad for Facebook Home. Curiously, I just took a business trip, tried to use Facebook Home while boarding, and my experience was a bit different:
+You've probably seen [this ad for Facebook Home](https://www.youtube.com/watch?v=XbcrIaUj4cI). Curiously, I just took a business trip, tried to use Facebook Home while boarding, and my experience was a bit different:
 
 ## INTERIOR AIRPLANE CABIN - NIGHT
 Paul walks down the aisle to row 34. Finding his seat, he reaches up to open the overhead bin to stow a bag. Rudely, he pauses in mid-gesture to look at his phone, which he has been holding this entire time, offscreen. As he opens the storage bin, a drunken man wearing a Chicago Blackhawks jersey is revealed to be lying there. The blaring of a stadium can be heard.
