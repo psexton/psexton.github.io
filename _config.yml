@@ -7,3 +7,4 @@ url: "psexton.net" # the base hostname & protocol for your site
 
 # Build settings
 permalink: /notebook/:title
+markdown: rdiscount
