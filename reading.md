@@ -14,4 +14,4 @@ If I'm at work and I say a project is "trivial", "non-trivial", "distinctly non-
  
 ## Unicode
 
-This was written roughly a decade ago, and it is shocking how much little progress we have made. [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
+This was written roughly a decade ago, and it is shocking how little progress we have made. [The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)](http://www.joelonsoftware.com/articles/Unicode.html)
