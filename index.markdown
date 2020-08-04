@@ -12,7 +12,7 @@ TL;DR: Minnesotan transplant. Computer scientist. Reluctant runner.
 {: .intro-caption}
 
 ## Professionally
-Currently, I'm a Scala developer at a health and wellness company named [Rally Health](https://rallyhealth.com). I work on products that make it easier to find quality and affordable care near you. I've written monitoring tools that hook into JMX. I've cut an ETL pipeline's processing time in half. I've gotten a very finicky Qt-based to run efficiently inside a Docker container. I still don't understand Javascript.
+Currently, I'm a Scala developer at a health and wellness company named [Rally Health](https://rallyhealth.com). I work on products that make it easier to find quality and affordable care near you. I've written monitoring tools that hook into JMX. I've cut an ETL pipeline's processing time in half. I've gotten a very finicky Qt-based app to run efficiently inside a Docker container. I still don't understand Javascript.
 
 Previously I worked for a research lab buried deep within the R&amp;D division of a hearing aid manufacturer named [GN ReSound](http://gnresound-group.com/), where a steady supply of problems to solve and expensive equipment to play with kept me occupied. I mostly utilized Java and MATLAB, but also occasionally maintained projects using Python, BeagleBones and Raspberry Pis.
 
