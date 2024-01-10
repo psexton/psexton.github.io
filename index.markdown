@@ -23,7 +23,7 @@ For five years I was a Scala developer at a health and wellness company named [R
 
 ## Career.previous.previous
 
-Before that I worked for a research lab buried deep within the R&amp;D division of a hearing aid manufacturer named [GN ReSound](http://gnresound-group.com/), where a steady supply of problems to solve and expensive equipment to play with kept me occupied. I mostly utilized Java and MATLAB, but also occasionally maintained projects using Python, BeagleBones and Raspberry Pis.
+Before that I worked for a research lab buried deep within the R&amp;D division of a hearing aid manufacturer named [GN ReSound](https://resound.com), where a steady supply of problems to solve and expensive equipment to play with kept me occupied. I mostly utilized Java and MATLAB, but also occasionally maintained projects using Python, BeagleBones and Raspberry Pis.
 
 ## Elsewhere
 
