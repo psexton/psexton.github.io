@@ -8,9 +8,6 @@ title: About
 # Hi! Iʼm Paul, a software engineer in Chicago, IL.
 {: .intro}
 
-TL;DR: Minnesotan transplant. Computer scientist. Reluctant runner.
-{: .intro-caption}
-
 ## Career.current
 
 I work at [MVMNT](https://mvmnt.io). I'm primarily a backend developer working with Kotlin microservices. They're made with Spring Boot, (Spring MVC and Spring JDBC) and deployed with Docker, Terraform, Github Actions, and AWS Fargate. Which is all very boring and unexciting, because the parts of your app that are not unique to you should be boring.
