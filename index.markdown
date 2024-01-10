@@ -24,7 +24,7 @@ I grew up just south of the Mississippi River in the Twin Cities of Minnesota. I
 Mostly thanks to my sister Dakota, it is also now public knowledge that I [buck a few other stereotypes as well](http://monkeybicycle.net/your-humble-prairie-hometown/).
 
 ## Where to find me
-Most of the code I write remains under guard by kittens with nerve and llamas with fight, but the parts that do leak out can be found at [Github](https://github.com/psexton){:rel='me'} or at the [Mathworks File Exchange](http://www.mathworks.com/matabcentral/fileexchange/authors/106467){:rel='me'}. You can also find me at these fine establishments:
+Most of the code I write remains under guard by kittens with nerve and llamas with fight, but the parts that do leak out can be found at [Github](https://github.com/psexton){:rel='me'} or at the [Mathworks File Exchange](https://www.mathworks.com/matlabcentral/profile/authors/1380672){:rel='me'}. You can also find me at these fine establishments:
 
 {:refdef: ul .elsewhere}
 - [linkedin](https://linkedin.com/in/pmsexton){: .ss-icon rel='me'} &nbsp;&nbsp; [Linkedin](https://linkedin.com/in/pmsexton){:rel='me'}
