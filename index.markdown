@@ -30,4 +30,6 @@ Before that I worked for a research lab buried deep within the R&amp;D division 
 {:refdef: ul .elsewhere}
 - [linkedin](https://linkedin.com/in/pmsexton){: .ss-icon rel='me'} &nbsp;&nbsp; [Linkedin](https://linkedin.com/in/pmsexton){:rel='me'}
 - [githuboctocat](https://github.com/psexton){: .ss-icon rel='me'} &nbsp;&nbsp; [Github](https://github.com/psexton){:rel='me'}
+- [stackoverflow](https://stackoverflow.com/users/1200336/paul-sexton){: .ss-icon rel='me'} &nbsp;&nbsp; [Stack Overflow](https://stackoverflow.com/users/1200336/paul-sexton){:rel='me'}
+- [link](https://www.mathworks.com/matlabcentral/profile/authors/1380672){: .ss-icon rel='me'} &nbsp;&nbsp; [Mathworks File Exchange](https://www.mathworks.com/matlabcentral/profile/authors/1380672){:rel='me'}
 {: refdef}
