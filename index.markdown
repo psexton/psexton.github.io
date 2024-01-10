@@ -27,8 +27,6 @@ Mostly thanks to my sister Dakota, it is also now public knowledge that I [buck 
 Most of the code I write remains under guard by kittens with nerve and llamas with fight, but the parts that do leak out can be found at [Github](https://github.com/psexton){:rel='me'} or at the [Mathworks File Exchange](http://www.mathworks.com/matabcentral/fileexchange/authors/106467){:rel='me'}. You can also find me at these fine establishments:
 
 {:refdef: ul .elsewhere}
-- [facebook](http://facebook.com/psexton){: .ss-icon rel='me'} &nbsp;&nbsp; [~~Facebook~~](http://facebook.com/psexton){:rel='me'} _actively making the world worse. deleted._
-- [twitter](https://twitter.com/paulsexton){: .ss-icon rel='me'} &nbsp;&nbsp; [~~Twitter~~](https://twitter.com/paulsexton){:rel='me'} _better, but not by enough. deleted._
-- [linkedin](https://linkedin.com/in/pmsexton){: .ss-icon rel='me'} &nbsp;&nbsp; [Linkedin](https://linkedin.com/in/pmsexton){:rel='me'} _bland corporate drivel. still live for now._
-- [githuboctocat](https://github.com/psexton){: .ss-icon rel='me'} &nbsp;&nbsp; [Github](https://github.com/psexton){:rel='me'} _this one's okay._
+- [linkedin](https://linkedin.com/in/pmsexton){: .ss-icon rel='me'} &nbsp;&nbsp; [Linkedin](https://linkedin.com/in/pmsexton){:rel='me'}
+- [githuboctocat](https://github.com/psexton){: .ss-icon rel='me'} &nbsp;&nbsp; [Github](https://github.com/psexton){:rel='me'}
 {: refdef}
