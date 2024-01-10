@@ -18,11 +18,6 @@ Previously I worked for a research lab buried deep within the R&amp;D division o
 
 Before moving to Chicago, I went to college at [St. John's University](http://csbsju.edu/) where I cut my teeth on C++ and graduated with a BA in Computer Science. Then I worked as a student intern for [Sandia National Laboratories](http://www.sandia.gov/"). That summer job turned into a 4-year, ongoing project: writing linear algebra libraries for supercomputers. It also became the subject of my Master's thesis at the [University of Illinois at Chicago](http://www.uic.edu/uic/) and while I was slaving over a hot stew of MPI and templates, we even won [an award](https://www.rd100conference.com/) for it.
 
-## Personally
-I grew up just south of the Mississippi River in the Twin Cities of Minnesota. I can't actually say that the land of 10,000 lakes turned me into some kind of TED-talk-giving nature survivalist advocate. But the nerd that those Mississippi woods produced not only grew up to become a math master, he also became a lifeguard and (to this day) a backwoods, boundary waters enthusiast.
-
-Mostly thanks to my sister Dakota, it is also now public knowledge that I [buck a few other stereotypes as well](http://monkeybicycle.net/your-humble-prairie-hometown/).
-
 ## Where to find me
 Most of the code I write remains under guard by kittens with nerve and llamas with fight, but the parts that do leak out can be found at [Github](https://github.com/psexton){:rel='me'} or at the [Mathworks File Exchange](https://www.mathworks.com/matlabcentral/profile/authors/1380672){:rel='me'}. You can also find me at these fine establishments:
 
